@@ -1,0 +1,181 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #095F2B;
+    background-image: linear-gradient(to right, #80E2AA, white);
+    padding: 5px;
+    margin: 30px 0px;
+    font-weight: 400;
+}
+
+h2#principal {
+    color:#07331B;
+    background-image: linear-gradient(to right, white, white);
+    font-size: 2em;
+    padding: 20px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+body {
+    background-color: #E8E7C2;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 18px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #229052, #07331B);
+    color: white;
+    margin: -10px;
+    border: 0px;
+    outline: 0px;
+    padding: 15px;
+
+}
+
+header > p {
+    text-align: center;
+    font-weight: 500;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main > p > a {
+    color: #095F2B;
+    text-decoration: none;
+}
+
+main > p > a:visited {
+    color: #095F2B;
+    text-decoration: none;
+}
+
+a.emoji::after {
+    content: '🔗';
+}
+
+main > div > p > a {
+    color: #095F2B;
+}
+
+main {
+    width: 60em;
+    height: auto;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px auto 20px auto;
+    box-shadow: 1px 1px 9px black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.centerlized{
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    color: #095F2B;
+}
+
+div.video {
+    width: 60em;
+    height: auto;
+    background-color: #003E18;
+
+}
+
+
+
+footer {
+    background-color: #003E18;
+    color: white;
+    text-align: center;
+    margin: -10px;
+    padding: 1px;
+
+}
+
+span.destaque {
+    color: white;
+    font-weight: 800;
+}
+
+div.final {
+    width: 800px;
+    height: 500px;
+    background-color: #80E2AA;
+    margin: 0px auto 30px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+}
+
+div.final > h3 {
+    background-color: #165C34;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+}
+
+div.final > p {
+    padding: 5px 10px;
+}
+
+div.final > p > a {
+    text-decoration: none;
+}
+
+div.final > p > a:hover {
+    text-decoration: underline;
+
+}
+
+.flex {
+    display: flex;
+
+}
+
+ul.flexed {
+    list-style: none;
+}
+
+li {
+    padding: 0px 35px;
+}
+
+li::before {
+    content: '✔';
+}
+
+p.final_text {
+    padding: 100px 0px 0px 0pxpx;
+}

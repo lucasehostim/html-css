@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(51, 48, 48);
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    
+}
+
+div {
+    text-align: center;
+}
+
+.centerlized {
+    margin: auto;
+}
+
+img.hoverdabled:hover {
+    border-style: dashed;
+    border-color: rgb(51, 48, 48);
+    border-width: 1px;
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+}
+
+a.linked:hover::after {
+    content: '🡄';
+}
+
+a.linked:hover::before {
+    content: '🡆';
+}
